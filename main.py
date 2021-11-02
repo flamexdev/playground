@@ -10,5 +10,5 @@ class colors:
   UNDERLINE = '\033[4m'
 
 
-age = input(colors.HEADER + "Age calculator\n" + colors.ENDC + "What's your age in years? ")
+age = int(input(colors.HEADER + "Age calculator\n" + colors.ENDC + "What's your age in years? "))
 print("you are " + age + " years old.")
